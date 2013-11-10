@@ -1,0 +1,72 @@
+<html>
+
+
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="jquery.sparkline.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="accidents.js"></script>
+<script src="chartingstuff.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+		<div class="span12">
+			<h1>Accidental deaths by type and age range</h1>
+			<p>What can I learn from this? Well, I apparently need to be on the lookout for non-traffic motor accidents and poisoning myself. Hoorah.</p>
+			<p class="credit">Source: 2012 Statistical Abstract of the United States</p>
+			<div id="chart" style="width:100%; height: 400px"></div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="span5">
+			<table width="100%">
+					<thead>
+						<tr>
+						<th>Type of accident</th>
+						<th>Total</th>
+						<th>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="motor_name">Thingy #1</td>
+							<td id="motor_value">Thingy #2</td>
+							<td id="motor_bar"><div class="bar motor_bar"></td>
+						</tr>
+						<tr>
+							<td id="nonmotor_name">Thingy #1</td>
+							<td id="nonmotor_value">Thingy #2</td>
+							<td id="nonmotor_bar"><div class="bar nonmotor_bar"></td>
+						</tr>
+						<tr>
+							<td id="falls_name">Thingy #1</td>
+							<td id="falls_value">Thingy #2</td>
+							<td id="falls_bar"><div class="bar falls_bar"></td>
+						</tr>
+						<tr>
+							<td id="poisoning_name">Thingy #1</td>
+							<td id="poisoning_value">Thingy #2</td>
+							<td id="poisoning_bar"><div class="bar poisoning_bar"></td>
+						</tr>
+						
+					</tbody>
+				<tr>
+			</table>
+		</div>
+		
+		<div class="span6">
+			<div id="total_number"></div>
+			<div id="rest">Accidents in total.</div>
+			<div id="piechart"></div>
+		
+		</div>
+	</div>
+</div>
+</body>
+
+</html>

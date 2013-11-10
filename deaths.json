@@ -1,0 +1,22 @@
+var causesofdeath = {
+	"Causes of Death": [{
+		"All causes": [2423712,29138,4703,6147, 33982, 42572, 79606, 184686, 287110, 389238, 652682, 713647],
+		"Septicemia": [34828,283,78,74,160,297,910,2431,4231,6345,10403,9614],
+		"Human Immunodeficiency Virus (HIV)": [11295,5,4,10,160,1091,3572,4156,1721,448,109,16],
+		"Cancer": [{
+			
+		}],
+		"Diabetes mellitus": [],
+		"Parkinsons disease": [],
+		"Alzheimers disease": [],
+		"Major Cardiovascular Diseases": [],
+		"Influenza and Pneumonia": [],
+		"Chronic Lower Respiratory Diseases": [],
+		"Chronic Liver Disease and Cirrhosis": [],
+		"Nephritis": [],
+		"Accidents": [],
+		"Suicide": [],
+		"Homicide": []
+	
+	}]
+}
