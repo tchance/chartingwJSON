@@ -7,3 +7,5 @@ Done in my spare time at work in preparation for doing data graphics for the iPa
 
 Something I've always wanted to do, anyway.
 
+A lot of these are the datasets I scraped off the Statistical Abstract's death data. The ones I used were accidents.js and chartingstuff.js.
+
